@@ -1,0 +1,11 @@
+apt install nmap (use nmap -P -A -sC ip)
+apt install netdiscover
+apt install hydra (use hydra -l user -P /usr/share/wordlists/rokcyou.txt ssh://ip:port)
+apt install nikto
+apt install gobuster (use gobuster dir -u ip/website -w /usr/share/wordlists/dirb/comon.txt)
+apt install dirb (This file will automatically enter Wordlis and can be used via Gobuster)
+apt install wireshark
+apt install burpsuite
+apt install nc
+wso.php / reversshell : (to shell to the website and crack the entire website folder)
+scp (scp file.txt remote_username@10.10.0.2:/remote/directory)
