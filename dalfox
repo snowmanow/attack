@@ -1,0 +1,4 @@
+apt install golang
+go install github.com/hahwul/dalfox/v2@latest
+cd go
+cp dalfox /usr/bin
